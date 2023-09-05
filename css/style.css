@@ -267,7 +267,7 @@ nav{
     }
 
     #navcontainer{
-        padding: 10px 0 5px;
+        padding: 10px 0 10px 5px;
     }
 
     #navigation{
@@ -276,7 +276,7 @@ nav{
 
     #navigation .nav-link{
         text-align: right;
-        padding-right: 15px;
+        padding-right: 10px;
     }
 
     #navtoggler{
