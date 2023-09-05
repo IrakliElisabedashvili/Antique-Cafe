@@ -1,0 +1,325 @@
+/* Fonts Start */
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+
+
+.oswald{
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+.ralewaylight{
+    font-family: RalewayLight;
+    font-weight: 300;
+}
+
+.ralewaymedium{
+    font-family: RalewayMedium;
+}
+
+.ralewayregular{
+    font-family: RalewayRegular;
+}
+
+.ralewaysemibold{
+    font-family: RalewaySemiBold;
+}
+/* Fonts End */
+
+
+
+/* *** Header Start *** */
+header{
+    padding-bottom: 192px;
+    background-image: url('../img/antique-cafe-bg-01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav{
+    transition: .4s ease-in-out;
+}
+
+#navigation .nav-link{
+    color: #cc9966;
+    transition: .8s ease-in-out;
+}
+
+#navigation .nav-link:hover, #navigation .nav-link.active{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+
+/* Header Title Container Start */
+#headertitlecontainer{
+    padding-top: 192px;
+}
+
+#headertitlecontainer .box{
+    max-width: 420px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-color{
+    color: #cc9966;
+}
+
+#headertitlecontainer button{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#headertitlecontainer button span{
+    transition: .8s ease-in-out;
+}
+
+#headertitlecontainer button:hover span{
+    color: white;
+}
+
+
+/* Header Title Container End */
+
+/* *** Header End *** */
+
+
+
+/* *** Menu Container Start *** */
+#menu{
+    background-image: url('../img/antique-cafe-bg-02.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+
+#menutitle{
+    max-width: 340px;
+    color: #544639;
+}
+
+.menu-list{
+    background-color: #544639;
+    padding: 40px 32px;
+    max-width: 520px;
+}
+
+.item-title h3{
+    color: #ffcc66;
+    margin-bottom: 12px;
+}
+
+.item-title p{
+    font-size: 18px;
+}
+/* *** Menu Container End *** */
+
+
+
+/* *** About Container Start ***  */
+#about{
+    padding-top: 192px;
+    padding-bottom: 192px;
+    background-image: url('../img/antique-cafe-bg-03.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.white-box{
+    max-width: 520px;
+}
+
+.white-box h2{
+    color: #066;
+}
+.white-box span a{
+    color: #066;
+    transition: .8s ease-in-out;
+}
+
+.white-box span a:hover{
+    color: #0a8585;
+}
+
+.white-box a.btn{
+    background-color: #066;
+    transition: .8s ease-in-out;
+}
+
+.white-box a.btn:hover{
+    background-color: #0a8585;
+}
+
+
+#about .btn{
+    background-color: #066;
+    transition: .8s ease-in-out;
+}
+
+#about .btn:hover{
+    background-color: #0a8585;
+}
+/* *** About Container End ***  */
+
+
+
+/* *** Contact Container Start *** */
+#contact{
+    padding-top: 192px;
+    padding-bottom: 192px;
+    background-image: url('../img/antique-cafe-bg-04.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Forms Start */
+.black-box{
+    flex-basis: 520px;
+}
+
+#contact .form-control::placeholder{
+    color: grey;
+}
+
+#contact .form-control{
+    border: transparent;
+    border-bottom:1px solid #c96;
+    transition: .2s ease-in-out;
+}
+
+#contact textarea{
+    resize: none;
+}
+
+#contact .form-control:focus{
+    border: 1px solid #c96;
+    box-shadow: 0 0 5px 0px #c96;
+}
+
+#contact form .btn{
+    color: grey;
+    font-family: RalewayLight;
+    transition: .8s ease-in-out;
+}
+
+#contact form .btn:hover{
+    color: #ffcc66;
+}
+/* Forms End */
+
+/* *** Contact Container End *** */
+
+
+/* *** Footer Start *** */
+#scrolltop{
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cc9966;
+    transition: all .8s ease-in-out;
+}
+
+#scrolltop:hover {
+    color: white;
+    border: 2px solid white;
+}
+/* *** Footer End *** */
+
+@media (max-width: 768px){
+    nav{
+        padding: 0 !important;
+        border-radius: 8px;
+        left: 76vw !important;
+        width: 19.5vw;
+        top: 0px !important;
+        transition: all .8s ease-in-out, right 1ms;
+    }
+
+    #navcontainer{
+        padding: 10px 0 5px;
+    }
+
+    #navigation{
+        transition: .8s ease-in-out;
+    }
+
+    #navigation .nav-link{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #navtoggler{
+        border: none;
+        box-shadow: none;
+        width: 40px;
+        height: 25px;
+        padding: 3px 10px 3px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #navtoggler .icon-bar{
+        width: 100%;
+        height: 3px;
+        background-color: #cc9966;
+        transition: all .8s ease-in-out;
+    }
+
+    .activate .icon-bar:first-child{
+        transform: rotate(-45deg) translate(-2px, 11px);
+    }
+
+    .activate .icon-bar:last-child{
+        transform: rotate(45deg) translate(0, -10px);
+    }
+
+    .activate .icon-bar:nth-child(2){
+        filter: opacity(0);
+        transition: .4s ease-in-out;
+    }
+    .show{
+        transition: .8s ease-in-out !important;
+    }
+
+    #header, #about , #menu, #contact{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #headertitlecontainer{
+        padding-top: 0;
+    }
+}
