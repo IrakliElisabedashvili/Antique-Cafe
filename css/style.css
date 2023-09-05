@@ -248,7 +248,7 @@ nav{
     justify-content: center;
     align-items: center;
     border: 2px solid #cc9966;
-    transition: all .8s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 #scrolltop:hover {
